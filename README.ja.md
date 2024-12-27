@@ -55,6 +55,14 @@ colcon build
 source install/setup.bash  # zshの場合はsetup.zsh
 ```
 
+## Contact
+
+Email: `mrp.contact[at]whill.inc`
+
+WHILLの電動モビリティプラットフォームについては下記サイトをご覧ください。
+
+[電動モビリティプラットフォーム](https://whill-mrp.notion.site/WHILL-f975baf4015e4eebbb243a7d331efb0a)
+
 ## LICENSE
 
 Copyright (c) 2024 WHILL, Inc.
