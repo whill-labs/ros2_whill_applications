@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>whill_auto_stop</name>
+  <version>0.0.0</version>
+  <description>Example of implementation of "auto stop" to stop driving when an obstacle is approaching</description>
+  <maintainer email="daisuke.sato@whill.inc">Daisuke Sato</maintainer>
+  <maintainer email="george.mandokoro@whill.inc">George Mandokoro</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>velodyne_driver</depend>
+  <depend>velodyne_laserscan</depend>
+  <depend>velodyne_pointcloud</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <test_depend>ament_cmake_clang_format</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
