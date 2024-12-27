@@ -1,0 +1,13 @@
+/**/laserscan_filter_node:
+    ros__parameters:
+        reference_link: base_link
+        forward:
+            x_min: -0.3
+            x_max:  1.0
+            y_min: -0.5
+            y_max:  0.5
+        backward:
+            x_min: -0.6
+            x_max:  0.8
+            y_min: -0.5
+            y_max:  0.5
