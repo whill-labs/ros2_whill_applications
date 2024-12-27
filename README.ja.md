@@ -55,6 +55,20 @@ colcon build
 source install/setup.bash  # zshの場合はsetup.zsh
 ```
 
+### 3. 各デバイスを接続する
+
+PCとロボット台車、LiDAR等を接続します。
+
+### 4. launchファイルを起動する
+
+whill_auto_stopの場合は以下のコマンドを実行します。
+
+```
+ros2 launch whill_auto_stop bringup_launch.py
+```
+
+詳細は[whill_auto_stop/README.md](whill_auto_stop/README.md)を参照ください。
+
 ## Contact
 
 Email: `mrp.contact[at]whill.inc`
