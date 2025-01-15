@@ -53,8 +53,8 @@ def generate_launch_description():
     display_robot_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             [
-                os.path.join(get_package_share_directory('whill_description'), 'launch/'),
-                'description.launch.py',
+                os.path.join(get_package_share_directory('whill_description'), 'launch',
+                             'description_launch.py'),
             ]
         ),
     )
